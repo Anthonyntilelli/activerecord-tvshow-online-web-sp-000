@@ -18,6 +18,7 @@ class Show < ActiveRecord::Base
   def popular_shows
   end
 
-shows_by_alphabetical_order: returns an array of all of the shows sorted by alphabetical order according to their names. hint: use the orde
+  def shows_by_alphabetical_order
+  end
   
 end
