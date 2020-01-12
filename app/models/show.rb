@@ -9,7 +9,8 @@ class Show < ActiveRecord::Base
   def lowest_rating
   end
 
-least_popular_show: returns the show with the lowest rating.
+  def least_popular_show
+  end
 
 ratings_sum: returns the sum of all of the ratings.
 
